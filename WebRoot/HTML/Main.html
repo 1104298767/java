@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>成绩管理系统</title>
+	
+    <meta name="keywords" content="keyword1,keyword2,keyword3">
+    <meta name="description" content="this is my page">
+    <meta name="content-type" content="text/html; charset=GB2312">
+     <link href="../CSS/css.css" rel="stylesheet" type="text/css"/>
+<script type="text/JavaScript" >
+
+function denglu(){
+
+	document.getElementById("id").innerHTML="Hello World"; 
+	document.getElementById("pass").innerHTML="How are you?"; 
+
+}
+
+</script>
+
+  </head>
+  
+  <body>
+
+  <h1 align="center">学生成绩管理系统</h1>
+    <div class="divall">
+    
+    
+    <div class="fengmian">
+    <img src="../JPG/fengmian.jpg" width=100% height=100%>
+    </div>
+    
+    <div class="divleft">
+    <audio src="../MUSIC/小幸运.mp3"  controls="controls" width=100%>音频播放</audio><br>
+    <a href="../JPG/audio标签.png">audio标签使用说明</a>
+    </div>
+ 
+    <div class="divcenter">
+    <video src="../MOVIE/video.flv" controls="controls"  width=100%  height=70%></video><br>
+    <a href="../JPG/video标签.png">video标签使用说明</a>
+    </div>
+    <div class="divright" >
+    <form align="center" name="yanzheng">
+    <br>
+    	账号<input id="id" ><br><br>
+    	密码<input id="pass"><br>
+    <br>
+    <input type="submit" value="登录" onclick="denglu()"></button>
+    <button type="reset">重置</button>
+    <br>
+    <p id="demo">123456</p>
+    <a href="https://www.w3cschool.cn/htmltags/tag-input.html" >input标签使用说明</a><br>
+    <a href="https://www.w3cschool.cn/htmltags/tag-button.html">button标签使用说明</a><br>
+    </form>
+    </div>
+    
+    </div>
+  </body>
+</html>

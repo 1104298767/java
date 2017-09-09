@@ -1,0 +1,41 @@
+@CHARSET "GB2312";
+
+.body{
+	align="center";
+}
+.divall{
+	border: 2px solid #ff0000;
+	height:700px;
+	width:60%;
+	margin:0 auto;
+}
+
+.fengmian{
+	border:2px solid #55ff00;
+	height:20%;
+	width:40%;
+	margin:0 auto;
+}
+.divleft{
+	border:1px solid #5500ff;
+	height:40%;
+	width:33%;
+
+
+	float:left;
+}
+.divcenter{
+	border:2px solid #aa55ff;
+	height:40%;
+	width:33%;
+	float:left;
+}
+.divright{
+	border:2px solid #aaaaff;
+	height:40%;
+	width:33%;
+	float:right;
+}
+
+
+
